@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/emergency-response.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.family-communication]
+path = 'contracts/family-communication.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
